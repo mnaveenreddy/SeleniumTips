@@ -1,0 +1,69 @@
+
+Create xpath in different ways:
+1. using only text contains
+//*[contains(text(),'some text')]
+
+2. Using starts-with:
+//*[starts-with(@class, 'some text _')]
+//*[starts-with(@id, 'some text _')]
+
+3. Using position(Ex: horizontal multiple elements):
+(//a[@name='a1'])[position()=1]
+(//a[@name='a1'])[position()=2]
+(//a[@name='a1'])[last()]
+
+4. Using class name and id:
+//*[@class='value' and @id='value']
+or
+//*[@class='value'][@id='value']
+
+
+5. Using class name and name:
+//*[@class='value' and @name='value']
+or
+//*[@class='value'][@name='value']
+
+
+6. Using id and name:
+//*[@id='value' and @name='value']
+or
+//*[@id='value'][@name='value']
+
+7. Using class and text:
+ //*[contains(@class, 'value') and text() = 'some text']
+
+8. Using class name and placeholder:
+//*[@class='value' and @id='value']
+
+9. Using 'a' tag or anchor tag:
+//a[@href='http://somelink.com']
+
+10. Using img tag:
+//img[@alt='http://some text']
+
+11. Using title and 'a':
+//a[@title='title value']
+
+
+12. Using only text:
+//*[text()='rediffmail']
+//*[@text()='Email for your Business']
+
+13.Using class and type
+//*[@class='newsrchbtn'][@type='submit']
+
+14.Flyvictor:
+//*[text()='Add Requirements']
+
+
+15. sibings
+//tagname[@att='value']/following-sibling::li[2]
+
+16.//tagname[@att='value']/parent::ul
+
+17. css: tagname[att='value'] ---even we no need to mention tagname. Ex for id #idname   ("#Login") --- 
+and for class .classname if at all there is space between class name replace it with . (.ident.class)
+#idname .classname
+
+
+

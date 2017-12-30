@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37070" started-at="2017-09-04T19:41:26Z" finished-at="2017-09-04T19:42:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37070" started-at="2017-09-04T19:41:26Z" finished-at="2017-09-04T19:42:03Z">
+      <class name="com.headlesschrome.test.Quidco">
+        <test-method status="PASS" signature="Join_With_Valid_details()[pri:0, instance:com.headlesschrome.test.Quidco@6276ae34]" name="Join_With_Valid_details" duration-ms="37048" started-at="2017-09-04T20:41:26Z" finished-at="2017-09-04T20:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_With_Valid_details -->
+      </class> <!-- com.headlesschrome.test.Quidco -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
